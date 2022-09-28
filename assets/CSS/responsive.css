@@ -39,12 +39,10 @@
   .cards-area {
     justify-content: space-between;
     align-items: center;
-    
   }
-  
-  .cards-area>div {
+
+  .cards-area > div {
     gap: 32px;
-    
   }
 
   .card-text {
@@ -126,8 +124,8 @@
     margin: 390px;
   }
 
-  .contact-area #cntct{
-    margin-left: 0!important;
+  .contact-area #cntct {
+    margin-left: 0 !important;
   }
 
   .contact-area .form-area h2 {
@@ -148,7 +146,6 @@
     height: 120px;
     width: 100%;
     margin: 16px 0;
-
   }
 
   .footer-contact {
@@ -355,7 +352,6 @@
     margin-top: 75px;
   }
   .card-list {
-    
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -369,7 +365,7 @@
   .card-area {
     margin: 25px 0px;
   }
-  .cards-area .row{
+  .cards-area .row {
     gap: 32px;
   }
   .cards-area {
@@ -512,11 +508,11 @@
   .footer-contact {
     /* margin-right: -250px; */
   }
-  .first-i{
+  .first-i {
     margin: 16px 0;
   }
-  .second-i{
-    margin:16px 0;
+  .second-i {
+    margin: 16px 0;
   }
 }
 
@@ -534,6 +530,4 @@
   .box:nth-child(even) {
     margin-left: calc(50% - 40px);
   }
-
-  
 }
