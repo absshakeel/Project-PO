@@ -1,5 +1,6 @@
 /* /mobile- */
 @media screen and (max-width: 625px) {
+
   .hero-area img {
     background-size: cover;
     margin: 0 auto;
@@ -525,6 +526,7 @@
   .box:nth-child(odd) {
     flex-direction: row-reverse;
     text-align: right;
+    
   }
 
   .box:nth-child(even) {

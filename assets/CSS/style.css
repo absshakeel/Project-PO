@@ -71,52 +71,50 @@ nav .icon-burger .line {
 /* ----------- */
 
 /* hero-area-start */
-.hero-area {
-}
-.hero-area img {
+.hero{
+  background:  url(/assets/image/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
-  display: block;
-  width: 100%;
-  height: 100%;
+  background-position: center;
+  padding-bottom: 92px;
+  height:100vh;
+  color:white;
+  
 }
-.hero-area .hero-cntent {
-  position: relative;
-  margin-top: -400px;
-  color: #fff;
-  line-height: 30.4px;
+.hero-content{
+  margin-top: 80px;
 }
-.hero-area .hero-cntent h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 58px;
+.hero-content h1 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
   font-weight: 700;
-  line-height: 75px;
-  letter-spacing: 0em;
-  text-align: left;
+  font-size: 58px;
+  line-height: 130%;
 }
-.hero-area .hero-cntent p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+.hero-content p {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
+  font-size: 18px;
+  line-height: 150%;
 }
-.hero-cntent button {
-  border: none;
-  background: #2585bc;
-  color: #fff;
-  padding: 8px;
+.hero-button{
+  width: fit-content;
+  padding: 10px ;
+  cursor: pointer;
+  background-color: #2585bc;
   font-weight: bold;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
+
 .hero-footer {
   background: #1f2a5a;
   color: #fff;
   text-align: center;
   margin: 0 auto;
   display: block;
-  padding: 40px;
+  padding: 75px 0;
 }
 .hero-footer h3 {
   font-family: "Source Sans Pro", sans-serif;
@@ -132,6 +130,7 @@ nav .icon-burger .line {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
+  color: #ddd;
 }
 /* hero-area-end */
 
@@ -155,11 +154,15 @@ nav .icon-burger .line {
   font-size: 48px;
   font-weight: 700;
 }
-.objectivearea ul li {
-  list-style: none;
-  margin-left: -35px;
-  padding: 5px;
+.object-content div i{
+  font-size: 25px;
+  color: #1F2A5A;
 }
+/* .object-content div p{
+  font-size: 16px;
+  font-weight: normal;
+  color: #1F2A5A;
+} */
 .second-div {
   margin-top: 150px;
 }
@@ -231,10 +234,17 @@ nav .icon-burger .line {
   line-height: 130%;
 }
 .unsere-formate .single-fm{
-  border:1px solid #E0E0E0;
+  border:3px solid #E0E0E0;
   padding:32px 24px;
   transition: border 0.3s ;
 }
+
+.unsere-formate .single-fm li{
+  line-height: 2;
+  margin-bottom: 8px;
+  
+}
+
 .unsere-formate .single-fm:hover{
   border: 3px solid #AECDEA;
 
@@ -260,15 +270,18 @@ nav .icon-burger .line {
   font-weight: 400;
   font-size: 16px;
   list-style: none;
+  position: relative;
 }
 .unsere-formate .single-fm li::before {
-  content: "\2022";
-  color: #BDBDBD;
-  font-weight: bold;
-  display: inline-block; 
+  content: "";
+  background-color: #BDBDBD;  
+  font-size: 50px;
   width: 8px;
   height: 8px;
-  margin-left: -3px;
+  margin-left: -20px;
+  top: 12px;
+  border-radius: 50%;
+  position: absolute;
 }
  
 .un-btn {
@@ -360,6 +373,11 @@ nav .icon-burger .line {
   border: 0 !important;
 }
 .accordion-button{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
   font-size: 22px;
   font-weight: 600;
 }
@@ -398,11 +416,8 @@ nav .icon-burger .line {
 }
 .first-i {
   height: 47px;
-  width: 460px;
-  
-   
+  width: 460px;   
   border: 1px solid #E0E0E0;
-
   padding: 12px;
   margin: 10px;
   outline: none;
@@ -414,7 +429,6 @@ nav .icon-burger .line {
   left: 0px;
   top: 63px;
   border: 1px solid #E0E0E0;
-
   padding: 12px;
   margin: 10px;
   outline: none;
@@ -454,9 +468,8 @@ nav .icon-burger .line {
 .contact-area .card{
   border-radius: 0;
 }
-.contact-area i{
-  /* width: 30px;
-  height: 30px; */
+.contact-area .person-logo i{
+ 
   background-color: #BDBDBD;
   border-radius: 50%;
   padding: 11px;
@@ -469,6 +482,10 @@ nav .icon-burger .line {
   align-items: center;
   background: #1f2a5a;
   color: #fff;
+  font-size: 14px;
+}
+.footer-area p,.footer-area a,.footer-area ul li a {
+  color: #BDBDBD !important;
 }
 .footer-contact {
   margin-left: 50px;
@@ -481,10 +498,21 @@ nav .icon-burger .line {
   color: #fff;
 }
 /* footer-area-end */
+.box-header{
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 130%;
+  color: #1F2A5A;
+}
 .box {
   display: flex;
   gap: 24px;
+  
+  
 }
+
 
 .sqr {
   height: 40px;
@@ -502,3 +530,4 @@ nav .icon-burger .line {
   rotate: -45deg;
   margin: 0;
 }
+
